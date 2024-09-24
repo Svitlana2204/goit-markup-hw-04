@@ -429,8 +429,14 @@ text-transform: capitalize;
 
 
 .footer-container{
+  display: flex;
+  align-items: baseline;
+}
+
+.container-footer{
   margin-right: 120px;
 }
+
 .page-social{
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -458,6 +464,7 @@ text-transform: capitalize;
   height: 100%;
   border-radius: 50%;
   background-color:#4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-style:hover,
